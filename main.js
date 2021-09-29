@@ -199,10 +199,10 @@ function reverseString(str) {
         const [ctr2, prevDate] = getPreviousPalindromeDate(date);
   
         if (ctr1 > ctr2) {
-          resultDiv.innerText = `Oh no, it's not a palindrome! :(
+          resultDiv.innerText = `Oh no, it's not a palindrome! 🙁
           The nearest palindrome date is ${prevDate.day}-${prevDate.month}-${prevDate.year}, you missed by ${ctr2} days.`;
         } else {
-          resultDiv.innerText = `Oh no, it's not a palindrome! :(
+          resultDiv.innerText = `Oh no, it's not a palindrome! 🙁
           The nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed by ${ctr1} days.`;
         }
       } else {
